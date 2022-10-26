@@ -1,0 +1,249 @@
+{
+  "apiVersion": 2,
+  "name": "bcb/team-grid",
+  "version": "0.1.0",
+  "title": "Team Grid",
+  "category": "atgb-blocks",
+  "description": "Display Team Members in a Responsive Grid Layout",
+  "supports": {
+    "html": false,
+    "anchor": false,
+    "customClassName": false
+  },
+  "example": {
+    "attributes": {
+      "deskCols": 3,
+      "deskRowGap": 10,
+      "deskColGap": 10,
+      "contentAlign": "center"
+    }
+  },
+  "providesContext": {
+    "bcb/nameTag": "nameTag",
+    "bcb/positionTag": "positionTag",
+    "bcb/bioTag": "bioTag",
+    "bcb/showSocialProfiles": "showSocialProfiles",
+    "bcb/iconsVisibleState": "iconsVisibleState",
+    "bcb/enableBoxShadow": "enableBoxShadow"
+  },
+  "attributes": {
+    "id": {
+      "type": "string"
+    },
+    "deskCols": {
+      "type": "number",
+      "default": 3
+    },
+    "tabCols": {
+      "type": "number",
+      "default": 2
+    },
+    "mobCols": {
+      "type": "number",
+      "default": 1
+    },
+    "deskRowGap": {
+      "type": "number",
+      "default": 30
+    },
+    "tabRowGap": {
+      "type": "number",
+      "default": 30
+    },
+    "mobRowGap": {
+      "type": "number",
+      "default": 20
+    },
+    "deskColGap": {
+      "type": "number",
+      "default": 30
+    },
+    "tabColGap": {
+      "type": "number",
+      "default": 30
+    },
+    "mobColGap": {
+      "type": "number",
+      "default": 0
+    },
+    "nameTag": {
+      "type": "string",
+      "default": "h3"
+    },
+    "positionTag": {
+      "type": "string",
+      "default": "h5"
+    },
+    "bioTag": {
+      "type": "string",
+      "default": "p"
+    },
+    "nameColor": {
+      "type": "string"
+    },
+    "positionColor": {
+      "type": "string"
+    },
+    "bioColor": {
+      "type": "string"
+    },
+    "photoRatio": {
+      "type": "string",
+      "default": "1/1"
+    },
+    "objectFit": {
+      "type": "string",
+      "default": "cover"
+    },
+    "showSocialProfiles": {
+      "type": "boolean",
+      "default": true
+    },
+    "contentAlign": {
+      "type": "string",
+      "default": "center"
+    },
+    "contentDtopPadding": {
+      "type": "string",
+      "default": "20"
+    },
+    "contentDbottomPadding": {
+      "type": "string",
+      "default": "20"
+    },
+    "contentDleftPadding": {
+      "type": "string",
+      "default": "20"
+    },
+    "contentDrightPadding": {
+      "type": "string",
+      "default": "20"
+    },
+    "enableContentDlinkedPadding": {
+      "type": "boolean",
+      "default": true
+    },
+    "contentDlinkedPadding": {
+      "type": "string",
+      "default": "20"
+    },
+    "contentTtopPadding": {
+      "type": "string",
+      "default": "15"
+    },
+    "contentTbottomPadding": {
+      "type": "string",
+      "default": "15"
+    },
+    "contentTleftPadding": {
+      "type": "string",
+      "default": "15"
+    },
+    "contentTrightPadding": {
+      "type": "string",
+      "default": "15"
+    },
+    "enableContentTlinkedPadding": {
+      "type": "boolean",
+      "default": true
+    },
+    "contentTlinkedPadding": {
+      "type": "string",
+      "default": "15"
+    },
+    "contentMtopPadding": {
+      "type": "string",
+      "default": "10"
+    },
+    "contentMbottomPadding": {
+      "type": "string",
+      "default": "10"
+    },
+    "contentMleftPadding": {
+      "type": "string",
+      "default": "10"
+    },
+    "contentMrightPadding": {
+      "type": "string",
+      "default": "10"
+    },
+    "enableContentMlinkedPadding": {
+      "type": "boolean",
+      "default": true
+    },
+    "contentMlinkedPadding": {
+      "type": "string",
+      "default": "10"
+    },
+    "iconsVisibleState": {
+      "type": "string",
+      "default": "always"
+    },
+    "iconSize": {
+      "type": "number",
+      "default": 18
+    },
+    "iconsSpacing": {
+      "type": "string",
+      "default": "5"
+    },
+    "iconsPanelBg": {
+      "type": "string",
+      "default": "#d4d5ff"
+    },
+    "iconColor": {
+      "type": "string",
+      "default": "#4f4f7c"
+    },
+    "iconHoverColor": {
+      "type": "string",
+      "default": "#347ab5"
+    },
+    "enableCustomColors": {
+      "type": "boolean",
+      "default": true
+    },
+    "borderStyle": {
+      "type": "string",
+      "default": "solid"
+    },
+    "borderWidth": {
+      "type": "number",
+      "default": 1
+    },
+    "borderColor": {
+      "type": "string",
+      "default": "#f8f8f8"
+    },
+    "hoverBorderColor": {
+      "type": "string"
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 0
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "hoverBackgroundColor": {
+      "type": "string"
+    },
+    "enableBoxShadow": {
+      "type": "boolean",
+      "default": true
+    },
+    "zIndex": {
+      "type": "number"
+    },
+    "anchorId": {
+      "type": "string"
+    },
+    "customClass": {
+      "type": "string"
+    }
+  },
+  "textdomain": "advanced-team-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

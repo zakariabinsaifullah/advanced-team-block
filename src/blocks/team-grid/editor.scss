@@ -1,0 +1,23 @@
+/*
+* Style Works for Editor Only
+*/
+
+.wp-block-bcb-team-grid {
+	[data-type="bcb/team-member"],
+	[data-type="bcb/icon"] {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	.block-list-appender {
+		position: relative !important;
+	}
+
+	.afgb__social_icons {
+		display: block;
+		.block-editor-block-list__layout {
+			display: flex;
+			justify-content: space-between;
+			flex-direction: column;
+		}
+	}
+}

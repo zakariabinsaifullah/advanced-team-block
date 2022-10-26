@@ -1,0 +1,102 @@
+/*
+* Style Works for both Editor and Frontend
+*/
+
+.wp-block-bcb-team-grid {
+	display: grid;
+	box-sizing: border-box;
+	position: relative;
+	@for $i from 1 to 6 {
+		&.atgb__dcols_#{$i} {
+			grid-template-columns: repeat($i, 1fr);
+		}
+	}
+
+	.wp-block-bcb-team-member {
+		overflow: hidden;
+		transition: 0.3s;
+		&.bcb__box-shadow {
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		&:hover .afgb__social_icons.hover {
+			opacity: 1;
+			visibility: visible;
+			transform: translateY(0);
+		}
+	}
+	.afgb__social_icons {
+		position: absolute;
+		top: 0;
+		right: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: auto;
+		height: auto;
+		box-sizing: border-box;
+		padding: 10px;
+		border-radius: 0 0 25px 25px;
+		overflow: hidden;
+		.wp-block-bcb-icon {
+			margin: 0 !important;
+			padding: 0 !important;
+			line-height: 1 !important;
+			display: block !important;
+			svg {
+				transition: 0.3s;
+			}
+		}
+		&.hover {
+			opacity: 0;
+			transition: all 0.3s ease-in-out;
+			visibility: hidden;
+			transform: translateY(-10px);
+		}
+	}
+
+	.atgb__member_info {
+		box-sizing: border-box;
+	}
+
+	.atgb__member_name {
+		margin: 0 0 10px !important;
+	}
+
+	.atgb__member_position {
+		margin: 0 0 10px !important;
+	}
+
+	.atgb__member_bio {
+		margin: 0 !important;
+	}
+
+	.atgb__member_photo {
+		position: relative;
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+// Tablet View
+@media (max-width: 1024px) {
+	.wp-block-bcb-team-grid {
+		@for $i from 1 to 6 {
+			&.atgb__tcols_#{$i} {
+				grid-template-columns: repeat($i, 1fr);
+			}
+		}
+	}
+}
+
+// Mobile View
+@media (max-width: 767px) {
+	.wp-block-bcb-team-grid {
+		@for $i from 1 to 6 {
+			&.atgb__mcols_#{$i} {
+				grid-template-columns: repeat($i, 1fr);
+			}
+		}
+	}
+}

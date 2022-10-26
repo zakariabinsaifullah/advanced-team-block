@@ -1,0 +1,20 @@
+/* Tag Selection */
+.atgb__tabs .atgb__titles_group {
+	margin-bottom: 24px;
+}
+.atgb__tabs .atgb__titles_group .components-button-group {
+	display: flex;
+	flex-wrap: nowrap;
+	box-sizing: border-box !important;
+}
+
+.atgb__tabs .components-button-group .components-button {
+	padding: 0 !important;
+	width: 100%;
+	display: block !important;
+	box-shadow: inset 0 0 0 1px #d4d4ff !important;
+}
+
+.atgb__tabs .components-button-group .components-button.is-pressed {
+	background: #4f4f7c !important;
+}

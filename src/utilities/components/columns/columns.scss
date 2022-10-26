@@ -1,0 +1,57 @@
+/* Responsive Devices */
+.afgb__items .components-flex-item {
+	flex: 1;
+}
+
+.afgb__items.spacing .components-input-control__container {
+	width: 22% !important;
+	flex: none !important;
+}
+
+.afgb__responsive_items {
+	margin-bottom: 16px;
+}
+
+.afgb__label_flex {
+	display: flex;
+	align-items: center;
+	margin-bottom: 16px;
+}
+
+p.afgb__label_nomargin {
+	margin: 0;
+	flex: 1;
+}
+
+.afgb__devices {
+	display: flex;
+	align-items: center;
+}
+
+button.afgb__device {
+	background: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+}
+
+button.afgb__device.middle_device {
+	margin: 0 2px;
+}
+
+button.afgb__device svg {
+	width: 15px;
+	height: 10px;
+	fill: #d4d5ff;
+}
+
+button.afgb__device.active svg {
+	fill: #4f4f7c;
+}
+
+.afgb__items .dashicon.dashicons {
+	font-size: 16px;
+	line-height: 20px;
+	color: #4f4f7c;
+}
