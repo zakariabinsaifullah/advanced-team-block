@@ -73,6 +73,7 @@ const GridStyleOneEdit = ({
 					value={name}
 					onChange={(content) => setAttributes({ name: content })}
 					placeholder={__('Name..', 'advanced-team-blocks')}
+					allowedFormats={['core/bold', 'core/italic']}
 				/>
 				<RichText
 					tagName={positionTag}
@@ -80,6 +81,7 @@ const GridStyleOneEdit = ({
 					value={position}
 					onChange={(content) => setAttributes({ position: content })}
 					placeholder={__('Position..', 'advanced-team-blocks')}
+					allowedFormats={['core/bold', 'core/italic']}
 				/>
 				<RichText
 					tagName={bioTag}
@@ -87,6 +89,7 @@ const GridStyleOneEdit = ({
 					value={bio}
 					onChange={(content) => setAttributes({ bio: content })}
 					placeholder={__('Bio..', 'advanced-team-blocks')}
+					allowedFormats={['core/bold', 'core/italic']}
 				/>
 			</div>
 		</Fragment>

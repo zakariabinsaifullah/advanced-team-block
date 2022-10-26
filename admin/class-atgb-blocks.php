@@ -90,7 +90,7 @@ class ATGB_Admin_Page {
                                                     <p class="support__description">
                                                         <?php _e( 'If you find any issue or have any suggestion, please let me know.', 'advanced-team-blocks' ); ?>
                                                     </p>
-                                                    <a href="https://wordpress.org/support/plugin/advanced-team-blocks/" class="support__link" target="_blank">
+                                                    <a href="https://wordpress.org/support/plugin/advanced-team-block/" class="support__link" target="_blank">
                                                         <?php _e( 'Support', 'advanced-team-blocks' ); ?>
                                                     </a>
                                                 </div>
@@ -101,7 +101,7 @@ class ATGB_Admin_Page {
                                                     <p class="support__description">
                                                         <?php _e( 'If you like this plugin, please share your opinion', 'advanced-team-blocks' ); ?>
                                                     </p>
-                                                    <a href="https://wordpress.org/support/plugin/advanced-team-blocks/reviews/" class="support__link" target="_blank">
+                                                    <a href="https://wordpress.org/support/plugin/advanced-team-block/reviews/" class="support__link" target="_blank">
                                                         <?php _e( 'Rate the Plugin', 'advanced-team-blocks' ); ?>
                                                     </a>
                                                 </div>
